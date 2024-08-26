@@ -57,7 +57,7 @@ export default function Home() {
       )}
 
       {/* Introduction */}
-      <div className="flex flex-col items-center justify-center h-auto p-4 md:p-8 m-24 mb-10">
+      <div className="flex flex-col items-center justify-center h-auto p-4 md:p-8 m-10 mb-10">
   <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-screen-lg">
     <div className="flex flex-col items-center md:items-start w-full md:w-1/2">
       <div className="text-4xl md:text-6xl font-extrabold mb-12" data-aos="fade-down">
