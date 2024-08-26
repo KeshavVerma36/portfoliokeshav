@@ -61,7 +61,7 @@ export default function Home() {
   <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-screen-lg">
     <div className="flex flex-col items-center md:items-start w-full md:w-1/2">
       <div className="text-4xl md:text-6xl font-extrabold mb-12" data-aos="fade-down">
-        Hi, I'm <span style={{color:"#2097F3"}}>Keshav!</span>
+        Hi, Im <span style={{color:"#2097F3"}}>Keshav!</span>
       </div>
       <p className="text-xl md:text-3xl font-light mt-4 text-center md:text-left" data-aos="fade-right">
         A web developer based in Delhi, India, creating seamless digital experiences. Elevate Your Web Presence. Explore my work and let’s discuss your project!
@@ -84,9 +84,9 @@ export default function Home() {
     <img src="/images/kp2.jpeg" width={420} alt="Keshav" className="object-cover" data-aos="zoom-in"/>
     <div className="text-lg md:text-2xl" style={{ width: '100%', maxWidth: '500px' }} data-aos="fade-left">
       <p className="md:flex md:flex-col md:justify-center">
-      Hi, I’m Keshav, a 20-year-old Computer Science student with a strong passion for coding and technology. My fascination with programming started early, and I thrive on tackling complex challenges and finding innovative solutions. I’m dedicated and hardworking, always seeking to deepen my knowledge and improve my skills in this dynamic field.
+      Hi, I am Keshav, a 20-year-old Computer Science student with a strong passion for coding and technology. My fascination with programming started early, and I thrive on tackling complex challenges and finding innovative solutions. Im dedicated and hardworking, always seeking to deepen my knowledge and improve my skills in this dynamic field.
         <br /><br />
-        When I’m not studying or coding, I enjoy exploring new technologies, working on personal projects, and engaging with open-source communities. I’m enthusiastic about the future and eager to contribute meaningfully through my skills and creativity. I look forward to connecting with others and exploring exciting opportunities together!
+        When I m not studying or coding, I enjoy exploring new technologies, working on personal projects, and engaging with open-source communities. Im enthusiastic about the future and eager to contribute meaningfully through my skills and creativity. I look forward to connecting with others and exploring exciting opportunities together!
       </p>
     </div>
   </div>
@@ -279,7 +279,7 @@ export default function Home() {
           <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email" className="w-12 h-12" />
         </div>
         <h4 className="text-xl font-semibold text-gray-900">Email</h4>
-        <p className="text-gray-600">Let's get in touch.</p>
+        <p className="text-gray-600">Lets get in touch.</p>
       </a>
       
       {/* Contact Option 2 */}
@@ -288,7 +288,7 @@ export default function Home() {
           <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" className="w-12 h-12" />
         </div>
         <h4 className="text-xl font-semibold text-gray-900">LinkedIn</h4>
-        <p className="text-gray-600">Let's connect.</p>
+        <p className="text-gray-600">Lets connect.</p>
       </a>
       
       {/* Contact Option 3 */}
