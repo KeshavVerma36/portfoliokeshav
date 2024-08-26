@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-separator {
+  position: relative;
+  height: 100px;
+}
+
+.section-separator::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #444, #666, #888, #aaa, #ccc);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  z-index: 1;
+}
+
+.section-separator::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #555, #777, #999, #bbb, #ddd);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  z-index: 2;
+  opacity: 0.7;
+}
+
+
+.button1 {
+  color: #787878;
+  background-color: #ffffff;
+  font-size: 25px;
+  border: 1px solid #3b3b3b;
+  border-radius: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button1:hover {
+  color: #000000;
+  background-color: #878787;
+  transform: scale(1.1);
+}
+
+.button2 {
+  color: #ffffff;
+  background-color: #2097F3;
+  font-size: 25px;
+  border: 0px solid #3b3b3b;
+  border-radius: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button2:hover {
+  color: #ffffff;
+  background-color: #0059b8;
+  transform: scale(1.1);
+}
+
+
+.gradiant {
+  background:
+  linear-gradient(135deg, #111827 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #111827 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #F3F4F6 25%, transparent 25%),
+  linear-gradient(45deg, #F3F4F6 25%, transparent 25%);
+background-size: 100px 100px;
+background-color: #F3F4F6;
+}
+
+.gradiant1 {
+  background:
+  linear-gradient(135deg, #ffffff 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #ffffff 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #111827 25%, transparent 25%),
+  linear-gradient(45deg, #111827 25%, transparent 25%);
+background-size: 100px 100px;
+background-color: #111827;
+}
+
+.gradiant3 {
+  background-color: #F3F4F6;
+background-image: linear-gradient(180deg, transparent 50%,
+#111827 50%);
+background-size: 25px 25px;
+}
+
+.gradiant4 {
+  background-color: #111827;
+background-image: linear-gradient(180deg, transparent 50%,
+#F3F4F6 50%);
+background-size: 25px 25px;
+}
+
+.gradiant5 {
+  background-color: #111827;
+  background-image: linear-gradient(180deg, transparent 50%,
+  #F3F4F6 50%);
+  background-size: 25px 25px;
+}
+
+.custom {
+  background-color: #111827;
+  color: white;
+}
